@@ -145,7 +145,7 @@ static NSString *const playbackRate = @"rate";
     self.onVideoLoadStart(@{
                            @"target": self.reactTag
                            });
-//    if(autoplay)
+    if(autoplay)
         [self play];
 }
 
