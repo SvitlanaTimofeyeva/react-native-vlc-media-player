@@ -73,6 +73,9 @@ static NSString *const playbackRate = @"rate";
             _started = NO;
         }
     }
+    else {
+        _paused = paused;
+    }
 }
 
 -(void)play
